@@ -1,0 +1,18 @@
+.HX10-P_SP2 :1 ;10 ARMS nominal. Single power supply: +12...15 V, Voltage output: +/-0.625+2.5V @ +/- Ipn.
+HX10PSP2
+*STM PS
+*NGS
+*PLB 1="0V_1" 2="0V_2" 3="+12V TO +15V" 4="OUTPUT" 5="PRIMARY INPUT CURRENT(+)" 6="PRIMARY INPUT CURRENT(-)"
+*MXP 6
+*DFN HX10-P_SP2
+~!Manufacturer_Name (LEM)
+~!Manufacturer_Part_Number (HX10-P/SP2)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314810.pdf)
+~!Height (20mm)
+~!3D_Model (HX10-P_SP2)
+HX10-P_SP2
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HX10-P_SP2
+D 10 ARMS nominal. Single power supply: +12...15 V, Voltage output: +/-0.625+2.5V @ +/- Ipn.
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314810.pdf
+$ENDCMP
+#
+#End Doc Library

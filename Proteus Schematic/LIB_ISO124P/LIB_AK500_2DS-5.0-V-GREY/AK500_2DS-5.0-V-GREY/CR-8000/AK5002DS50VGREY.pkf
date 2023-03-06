@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AK5002DS50VGREY"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AK5002DS50VGREY")
+        (spec "default")
+    )
+)

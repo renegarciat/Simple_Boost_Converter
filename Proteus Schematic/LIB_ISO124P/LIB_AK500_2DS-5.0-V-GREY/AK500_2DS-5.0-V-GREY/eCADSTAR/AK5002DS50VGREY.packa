@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AK500_2DS-5_0-V-GREY"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-17-09:34:40)
+    (mountForm default
+        (footprintRef "AK5002DS50VGREY")
+        (spec "System")
+    )
+)
