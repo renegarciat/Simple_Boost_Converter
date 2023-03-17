@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDPF18N20FT'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "FDPF18N20FT" (!) = "", "TO254P490X1016X1970-3P", "Transistor Outline, Vertical", "512-FDPF18N20FT", "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDPF18N20FT/?qs=xpKATA2oto6WLYLq61t6YA%3D%3D", "", "", "N-Channel 200 V 18A (Tc) 41W (Tc) Through Hole TO-220F-3", "https://www.onsemi.com/download/data-sheet/pdf/fdpf18n20ft-d.pdf", "4.9 mm"
+END_PART
+
+END.

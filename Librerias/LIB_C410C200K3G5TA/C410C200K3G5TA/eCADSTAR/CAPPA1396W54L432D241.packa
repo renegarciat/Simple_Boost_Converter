@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C410C200K3G5TA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-28-11:02:53)
+    (mountForm default
+        (footprintRef "CAPPA1396W54L432D241")
+        (spec "System")
+    )
+)

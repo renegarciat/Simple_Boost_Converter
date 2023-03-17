@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AK500_2DS-5.0-V-GREY
+D Wire Guard | Spacing 5.0 mm / 5.08 mm
+K
+F http://www.ptr-hartmann.ru/catalog_files/2PTR%20PICTURE_pdf%20Terminal%20Blocks/pdf_AK500-xxDS-5.0-V-xxxx.pdf
+$ENDCMP
+#
+#End Doc Library

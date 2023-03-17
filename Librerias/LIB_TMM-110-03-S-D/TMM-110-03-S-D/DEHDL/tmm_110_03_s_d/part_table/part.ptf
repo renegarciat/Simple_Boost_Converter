@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TMM_110_03_S_D'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMTEC", "TMM-110-03-S-D" (!) = "", "HDRV20W50P200_2X10_2000X394X575P", "Header, Vertical", "", "", "", "", "Headers & Wire Housings Low Profile Tiger Eye Header Strips, 2.00 mm Pitch 20pos 10 per row double row header", "https://suddendocs.samtec.com/prints/tmm-1xx-xx-xx-x-xx-xxx-mkt1.pdf?_gl=1*73eo0b*_ga*MTA2MjMwMjY5Ny4xNjcwNzQ1Mjgy*_ga_3KFNZC07WW*MTY3ODk3OTE3MS40Ni4xLjE2Nzg5NzkzNDQuNjAuMC4w", "5.75 mm"
+END_PART
+
+END.

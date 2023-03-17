@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model HX10-P_SP2
+#/14256051/1010211/2.49/6/3/Power Supply
+DEF HX10-P_SP2 PS 0 30 Y Y 1 F N
+F0 "PS" 2350 300 50 H V L CNN
+F1 "HX10-P_SP2" 2350 200 50 H V L CNN
+F2 "HX10PSP2" 2350 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314810.pdf" 2350 0 50 H I L CNN
+F4 "10 ARMS nominal. Single power supply: +12...15 V, Voltage output: +/-0.625+2.5V @ +/- Ipn." 2350 -100 50 H I L CNN "Description"
+F5 "20" 2350 -200 50 H I L CNN "Height"
+F6 "LEM" 2350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "HX10-P/SP2" 2350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 2350 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 2350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 2350 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 2350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 0V_1 1 0 0 200 R 50 50 0 0 P
+X 0V_2 2 0 -100 200 R 50 50 0 0 P
+X +12V_TO_+15V 3 0 -200 200 R 50 50 0 0 P
+X OUTPUT 4 0 -300 200 R 50 50 0 0 P
+X PRIMARY_INPUT_CURRENT(+) 5 2500 0 200 L 50 50 0 0 P
+X PRIMARY_INPUT_CURRENT(-) 6 2500 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2300 100 2300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

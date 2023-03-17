@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C410C200K3G5TA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "KEMET", "C410C200K3G5TA" (!) = "", "CAPPA1396W54L432D241", "Capacitors, Polarized Axial Diameter Horizontal Mounting", "", "", "", "", "AxiMax 400 Comm C0G, Ceramic, 20 pF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, C0G, AxiMax, Commercial Standard, 0.1 % , 100 GOhms, 2.41mm, 4.32mm, 25.4mm, 0.51mm, 300, 120", "https://content.kemet.com/datasheets/KEM_C1040_AXIMAX_C0G.pdf"
+END_PART
+
+END.

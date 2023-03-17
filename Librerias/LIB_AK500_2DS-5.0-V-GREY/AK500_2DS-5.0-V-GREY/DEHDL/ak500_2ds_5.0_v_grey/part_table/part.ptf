@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AK500_2DS_5.0_V_GREY'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALTIUM", "AK500/2DS-5.0-V-GREY" (!) = "", "AK5002DS50VGREY", "Other", "", "", "", "", "Wire Guard | Spacing 5.0 mm / 5.08 mm", "http://www.ptr-hartmann.ru/catalog_files/2PTR%20PICTURE_pdf%20Terminal%20Blocks/pdf_AK500-xxDS-5.0-V-xxxx.pdf", "10 mm"
+END_PART
+
+END.

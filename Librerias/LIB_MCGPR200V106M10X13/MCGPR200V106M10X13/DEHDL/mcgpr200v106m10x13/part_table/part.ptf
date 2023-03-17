@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCGPR200V106M10X13'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "MULTICOMP", "MCGPR200V106M10X13" (!) = "", "CAPPRD500W62D1025H1400", "Capacitor, Polarized Radial Diameter", "", "", "", "", "ALUMINUM ELECTROLYTIC CAPACITOR 10UF, 200V, 20%, RADIAL", "https://www.farnell.com/datasheets/606466.pdf", "14 mm"
+END_PART
+
+END.

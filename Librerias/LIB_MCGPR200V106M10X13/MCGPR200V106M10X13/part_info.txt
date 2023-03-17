@@ -1,0 +1,9 @@
+Manufacturer=MULTICOMP
+PartNumber=MCGPR200V106M10X13
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2023-03-14 04:49:13
+Downloaded=2023-03-15 01:49:45
+3D=Y

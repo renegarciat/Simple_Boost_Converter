@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_886544"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-11-05:59:00)
+    (utime 2023-03-11-06:25:33)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MAL205859471E3")
+)
+
+
+(pinAssign "ECS_886544"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-11-05:59:00)
+    (utime 2023-03-11-06:25:33)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_886544")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MAL205859471E3")
+)
+
+
+(part "MAL205859471E3"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-11-05:59:00)
+    (utime 2023-03-11-06:25:33)
+    (packageRef "MAL205859471E3")
+    (pinAssignRef "ECS_886544")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Aluminum Electrolytic Capacitors - Snap In 470uF 100V 22x30mm")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "MAL205859471E3")
+    (property "Mouser_Part_Number" "594-MAL205859471E3")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL205859471E3?qs=r0NmvwWPm2x5ZydH7o9G6A%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/28342/058059pll-si.pdf")
+    (property "compAreaTopHeight" 32)
+)
+
+

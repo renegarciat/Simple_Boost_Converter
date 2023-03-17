@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_13275040"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-17-09:34:40)
+    (utime 2021-11-07-06:27:18)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "AK500_2DS-5_0-V-GREY")
+)
+
+
+(pinAssign "ECS_13275040"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-17-09:34:40)
+    (utime 2021-11-07-06:27:18)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13275040")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "AK500_2DS-5_0-V-GREY")
+)
+
+
+(part "AK500_2DS-5_0-V-GREY"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-11-17-09:34:40)
+    (utime 2021-11-07-06:27:18)
+    (packageRef "AK500_2DS-5_0-V-GREY")
+    (pinAssignRef "ECS_13275040")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "Wire Guard | Spacing 5.0 mm / 5.08 mm")
+    (property "Manufacturer_Name" "ALTIUM")
+    (property "Manufacturer_Part_Number" "AK500/2DS-5.0-V-GREY")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "http://www.ptr-hartmann.ru/catalog_files/2PTR%20PICTURE_pdf%20Terminal%20Blocks/pdf_AK500-xxDS-5.0-V-xxxx.pdf")
+    (property "compAreaTopHeight" 10)
+)
+
+

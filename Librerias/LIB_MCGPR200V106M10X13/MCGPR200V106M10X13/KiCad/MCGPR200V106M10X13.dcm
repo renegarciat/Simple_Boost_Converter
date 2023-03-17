@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCGPR200V106M10X13
+D ALUMINUM ELECTROLYTIC CAPACITOR 10UF, 200V, 20%, RADIAL
+K
+F https://www.farnell.com/datasheets/606466.pdf
+$ENDCMP
+#
+#End Doc Library

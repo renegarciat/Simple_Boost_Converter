@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C410C200K3G5TA
+D AxiMax 400 Comm C0G, Ceramic, 20 pF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, C0G, AxiMax, Commercial Standard, 0.1 % , 100 GOhms, 2.41mm, 4.32mm, 25.4mm, 0.51mm, 300, 120
+K
+F https://content.kemet.com/datasheets/KEM_C1040_AXIMAX_C0G.pdf
+$ENDCMP
+#
+#End Doc Library

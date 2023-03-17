@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TMM-110-03-S-D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-03-17-05:57:35)
+    (mountForm default
+        (footprintRef "HDRV20W50P200_2X10_2000X394X575P")
+        (spec "System")
+    )
+)

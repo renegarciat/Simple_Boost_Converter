@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAL205859471E3
+D Aluminum Electrolytic Capacitors - Snap In 470uF 100V 22x30mm
+K
+F https://www.vishay.com/docs/28342/058059pll-si.pdf
+$ENDCMP
+#
+#End Doc Library

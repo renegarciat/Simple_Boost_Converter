@@ -1,0 +1,18 @@
+.AK500_2DS-5.0-V-GREY :1 ;Wire Guard | Spacing 5.0 mm / 5.08 mm
+AK5002DS50VGREY
+*STM IC
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN AK500_2DS-5.0-V-GREY
+~!Manufacturer_Name (ALTIUM)
+~!Manufacturer_Part_Number (AK500/2DS-5.0-V-GREY)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.ptr-hartmann.ru/catalog_files/2PTR%20PICTURE_pdf%20Terminal%20Blocks/pdf_AK500-xxDS-5.0-V-xxxx.pdf)
+~!Height (10mm)
+~!3D_Model (AK500_2DS-5.0-V-GREY)
+AK500_2DS-5.0-V-GREY
+1.1!U 2.1!U 

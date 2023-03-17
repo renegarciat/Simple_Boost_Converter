@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=TMM-110-03-S-D
+PartCategory=Connector
+PackageCategory=Header, Vertical
+PinCount=20
+Version=1.1
+Released=2023-03-17 05:57:35
+Downloaded=2023-03-17 15:29:39
+3D=Y

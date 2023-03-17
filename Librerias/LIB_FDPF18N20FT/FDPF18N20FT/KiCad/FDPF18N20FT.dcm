@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDPF18N20FT
+D N-Channel 200 V 18A (Tc) 41W (Tc) Through Hole TO-220F-3
+K
+F https://www.onsemi.com/download/data-sheet/pdf/fdpf18n20ft-d.pdf
+$ENDCMP
+#
+#End Doc Library

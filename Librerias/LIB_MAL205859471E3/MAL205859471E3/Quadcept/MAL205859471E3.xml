@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/886544/1010211/2.49/2/3/Capacitor Polarised/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c315_h210" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="82.67716535433">
+    <padshape layer="TOP" shape="round" width="124.01574803149" height="124.01574803149" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="131.88976377953" height="131.88976377953" />
+    <padshape layer="INNER" shape="round" width="124.01574803149" height="124.01574803149" />
+    <padshape layer="BOTTOM" shape="round" width="124.01574803149" height="124.01574803149" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="131.88976377953" height="131.88976377953" />
+  </padstyle>
+  <padstyle name="s315_h210" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="82.67716535433">
+    <padshape layer="TOP" shape="square" width="124.01574803149" height="124.01574803149" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="131.88976377953" height="131.88976377953" />
+    <padshape layer="INNER" shape="round" width="124.01574803149" height="124.01574803149" />
+    <padshape layer="BOTTOM" shape="square" width="124.01574803149" height="124.01574803149" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="131.88976377953" height="131.88976377953" />
+  </padstyle>
+  <footprint name="CAPPRD1000W190D2200H3200" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s315_h210" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c315_h210" originx="393.70078740157" originy="0" rotation="90" />
+    <arc layer="TOP_PLACE_BOUND" originx="196.85039370078" originy="0" startangle="180" sweepangle="180" radius="452.75590551181" width="1.9685039370079" />
+    <arc layer="TOP_PLACE_BOUND" originx="196.85039370078" originy="0" startangle="180" sweepangle="-180" radius="452.75590551181" width="1.9685039370079" />
+    <arc layer="TOP_SILKSCREEN" originx="196.85039370078" originy="0" startangle="180" sweepangle="180" radius="433.07086614173" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="196.85039370078" originy="0" startangle="180" sweepangle="-180" radius="433.07086614173" width="7.8740157480314" />
+    <arc layer="TOP_ASSEMBLY" originx="196.85039370078" originy="0" startangle="180" sweepangle="180" radius="433.07086614173" width="3.9370078740157" />
+    <arc layer="TOP_ASSEMBLY" originx="196.85039370078" originy="0" startangle="180" sweepangle="-180" radius="433.07086614173" width="3.9370078740157" />
+  </footprint>
+  <symbol name="MAL205859471E3" originx="0" originy="0">
+    <line originx="200" originy="100" endx="200" endy="-100" width="0" />
+    <line originx="230" originy="-100" endx="200" endy="-100" width="0" />
+    <line originx="230" originy="-100" endx="230" endy="100" width="0" />
+    <line originx="200" originy="100" endx="230" endy="100" width="0" />
+    <line originx="180" originy="50" endx="140" endy="50" width="0" />
+    <line originx="160" originy="70" endx="160" endy="30" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="300" originy="0" endx="400" endy="0" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="+" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="400" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="500" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="-" />
+      <text name="pindes" originx="500" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="300" y="100" />
+      <point x="300" y="-100" />
+      <point x="270" y="-100" />
+      <point x="270" y="100" />
+    </polygon>
+  </symbol>
+  <component name="MAL205859471E3" designatorprefix="C" height="1259.842519685" footprint="CAPPRD1000W190D2200H3200">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="-" />
+    <attached_symbol gate="1" name="MAL205859471E3" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.vishay.com/docs/28342/058059pll-si.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Aluminum Electrolytic Capacitors - Snap In 470uF 100V 22x30mm" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Vishay" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="MAL205859471E3" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="594-MAL205859471E3" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL205859471E3?qs=r0NmvwWPm2x5ZydH7o9G6A%3D%3D" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+  </component>
+</quadcept_library>

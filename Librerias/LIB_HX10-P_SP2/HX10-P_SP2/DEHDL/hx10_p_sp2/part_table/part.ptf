@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HX10_P_SP2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LEM", "HX10-P/SP2" (!) = "", "HX10PSP2", "Other", "", "", "", "", "10 ARMS nominal. Single power supply: +12...15 V, Voltage output: +/-0.625+2.5V @ +/- Ipn.", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-16/DSA-314810.pdf", "20 mm"
+END_PART
+
+END.

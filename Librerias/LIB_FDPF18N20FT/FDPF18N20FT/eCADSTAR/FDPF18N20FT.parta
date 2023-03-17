@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_2111750"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-14-11:23:01)
+    (utime 2023-03-14-11:23:01)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "FDPF18N20FT")
+)
+
+
+(pinAssign "ECS_2111750"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-14-11:23:01)
+    (utime 2023-03-14-11:23:01)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2111750")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "FDPF18N20FT")
+)
+
+
+(part "FDPF18N20FT"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-14-11:23:01)
+    (utime 2023-03-14-11:23:01)
+    (packageRef "FDPF18N20FT")
+    (pinAssignRef "ECS_2111750")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "N-Channel 200 V 18A (Tc) 41W (Tc) Through Hole TO-220F-3")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "FDPF18N20FT")
+    (property "Mouser_Part_Number" "512-FDPF18N20FT")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDPF18N20FT/?qs=xpKATA2oto6WLYLq61t6YA%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.onsemi.com/download/data-sheet/pdf/fdpf18n20ft-d.pdf")
+    (property "compAreaTopHeight" 4.9)
+)
+
+

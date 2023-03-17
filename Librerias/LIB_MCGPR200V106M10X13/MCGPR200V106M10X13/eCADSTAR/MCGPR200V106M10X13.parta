@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_644785"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-14-04:49:13)
+    (utime 2023-03-14-06:25:19)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MCGPR200V106M10X13")
+)
+
+
+(pinAssign "ECS_644785"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-14-04:49:13)
+    (utime 2023-03-14-06:25:19)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_644785")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MCGPR200V106M10X13")
+)
+
+
+(part "MCGPR200V106M10X13"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-14-04:49:13)
+    (utime 2023-03-14-06:25:19)
+    (packageRef "MCGPR200V106M10X13")
+    (pinAssignRef "ECS_644785")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "ALUMINUM ELECTROLYTIC CAPACITOR 10UF, 200V, 20%, RADIAL")
+    (property "Manufacturer_Name" "MULTICOMP")
+    (property "Manufacturer_Part_Number" "MCGPR200V106M10X13")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.farnell.com/datasheets/606466.pdf")
+    (property "compAreaTopHeight" 14)
+)
+
+

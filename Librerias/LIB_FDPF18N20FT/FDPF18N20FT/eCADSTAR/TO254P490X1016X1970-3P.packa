@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FDPF18N20FT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-03-14-11:23:01)
+    (mountForm default
+        (footprintRef "TO254P490X1016X1970-3P")
+        (spec "System")
+    )
+)

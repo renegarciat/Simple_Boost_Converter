@@ -1,0 +1,18 @@
+.FDPF18N20FT :1 ;N-Channel 200 V 18A (Tc) 41W (Tc) Through Hole TO-220F-3
+TO254P490X1016X1970-3P
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN FDPF18N20FT
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (FDPF18N20FT)
+~!Mouser Part Number (512-FDPF18N20FT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDPF18N20FT/?qs=xpKATA2oto6WLYLq61t6YA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.onsemi.com/download/data-sheet/pdf/fdpf18n20ft-d.pdf)
+~!Height (4.9mm)
+~!3D_Model (FDPF18N20FT)
+FDPF18N20FT
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAL205859471E3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "MAL205859471E3" (!) = "", "CAPPRD1000W190D2200H3200", "Capacitor, Polarized Radial Diameter", "594-MAL205859471E3", "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL205859471E3?qs=r0NmvwWPm2x5ZydH7o9G6A%3D%3D", "", "", "Aluminum Electrolytic Capacitors - Snap In 470uF 100V 22x30mm", "https://www.vishay.com/docs/28342/058059pll-si.pdf", "32 mm"
+END_PART
+
+END.

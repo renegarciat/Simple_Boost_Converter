@@ -1,0 +1,18 @@
+.TMM-110-03-S-D :1 ;Headers & Wire Housings Low Profile Tiger Eye Header Strips, 2.00 mm Pitch 20pos 10 per row double row header
+HDRV20W50P200_2X10_2000X394X575P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="12" 13="13" 14="14" 15="15" 16="16" 17="17" 18="18" 19="19" 20="20"
+*MXP 20
+*DFN TMM-110-03-S-D
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (TMM-110-03-S-D)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://suddendocs.samtec.com/prints/tmm-1xx-xx-xx-x-xx-xxx-mkt1.pdf?_gl=1*73eo0b*_ga*MTA2MjMwMjY5Ny4xNjcwNzQ1Mjgy*_ga_3KFNZC07WW*MTY3ODk3OTE3MS40Ni4xLjE2Nzg5NzkzNDQuNjAuMC4w)
+~!Height (5.75mm)
+~!3D_Model (TMM-110-03-S-D)
+TMM-110-03-S-D
+1.1!U 3.1!U 5.1!U 7.1!U 9.1!U 11.1!U 13.1!U 15.1!U 17.1!U 19.1!U 2.1!U 4.1!U 6.1!U 8.1!U 10.1!U 12.1!U 14.1!U 16.1!U 18.1!U 20.1!U 

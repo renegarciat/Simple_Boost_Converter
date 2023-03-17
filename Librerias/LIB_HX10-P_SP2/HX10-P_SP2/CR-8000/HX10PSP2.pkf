@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "HX10PSP2"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "HX10PSP2")
+        (spec "default")
+    )
+)
