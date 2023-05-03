@@ -4,6 +4,7 @@
   <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffff100000000d000000bf0300002c040000</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
   <WINDOW type="default" module="ARES"/>
+  <WINDOW type="default" module="BOM"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
   <PWI>
